@@ -1,0 +1,139 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Sujan
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+@font-face {
+	font-family: "something";
+	src: url('fonts/something.woff') format('woff');
+}
+
+body, p {
+	font-family: "something";
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+
+
+/**************** 2. Header Area ********/
+
+
+.header-area {
+	background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	color: #FFFFFF;
+	text-align: center;
+	overflow: hidden;
+	padding: 25px 0;
+}
+
+
+
+
+/*********** 2.1 Menu Area **********/
+
+.menu-area ul {
+	text-align: center;
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+
+.menu-area ul li {
+	display: inline;
+	margin: 0 24px;
+}
+.menu-area ul li a {
+	color: #FFFFFF; 
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.menu-area ul .logo {
+	margin: 0 40px;
+	width: 40px;
+	height: auto;
+}
+
+
+
+/********** 	2.2 Welcome Text     **********/
+
+.welcome-text {
+	margin-top: 180px;
+	overflow: hidden;
+}
+
+.header-area h2 {
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+.header-area h5 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.btn {
+	text-decoration: none; 
+	color: #FFFFFF;
+	background: #16A086;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+
+
+
+/********** 		2.3 Social Media       ***********/
+
+.social-media {
+	overflow: hidden;
+	margin-top: 130px;
+}
+.social-media ul {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-media ul li {
+	display: inline; 
+	margin: 0 10px;
+}
+.social-media ul li a {
+	color: #FFFFFF;  
+	text-decoration: none;
+	font-size: 20px;
+}
+
